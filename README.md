@@ -2,6 +2,8 @@
 * Check the wiki: https://wiki.aaps.app
 *  Everyone who’s been looping with AAPS needs to fill out the form after 3 days of looping  https://docs.google.com/forms/d/14KcMjlINPMJHVt28MDRupa4sz4DDIooI4SrW0P3HSN8/viewform?c=0&w=1
 
+
+
 [![Support Server](https://img.shields.io/discord/629952586895851530.svg?label=Discord&logo=Discord&colorB=7289da&style=for-the-badge)](https://discord.gg/4fQUWHZ4Mw)
 
 [![CircleCI](https://circleci.com/gh/nightscout/AndroidAPS/tree/master.svg?style=svg)](https://circleci.com/gh/nightscout/AndroidAPS/tree/master)
@@ -59,21 +61,21 @@ You need to get the secerts of the key store file to sign your application. For 
 Please follow these steps:
 * Fork this repository.
 * Scan the below QR code and subscribe "一型码农Lex" WeChat Channel.  
-<a href="/Documentation/wechat_qr.png"><img src="/Documentation/wechat_qr.png?raw=true" alt="WeChat Channel QR code" width="340"></a>  
-* Join the WeChat group and ask for the secrets. (Get the WeChat group QR code form the middle menu of "一型码农Lex" WeChat Channel. Scan to join.)
-* Add below secrets in the  `Actions secrets and variables` settings of your repository.  
-<a href="/Documentation/screen1.png"><img src="/Documentation/screen1.png?raw=true" alt="Screenshot of Actions secrets" width="800"></a>  
+<一个href="/Documentation/wechat_qr.png"><百万毫克学生代表会="/Documentation/wechat_qr.png?raw=true" 非典型脂肪瘤（alt）=“微信渠道二维码” 宽度="340"></一个>  
+*加入微信群，请教秘诀。（从“一型码农 Lex”微信频道中间菜单获取微信群二维码，扫描加入）
+*在`行动秘密和变量`存储库的设置。  
+<一个href="/Documentation/screen1.png"><百万毫克学生代表会="/Documentation/screen1.png?raw=true" 非典型脂肪瘤（alt）=“行动秘密截图” 宽度="800"></一个>  
   `KEY_ALIAS`, `KEY_PASSWORD`, `STORE_FILE`, `STORE_PASSWORD`. 
-* Trigger build in Github Actions
-* Download the `aaps.zip` file in `Artifacts`
+*Github操作中的触发器构建
+*下载`aaps.zip`档案`文物`
 
 ### 如果你不熟悉安卓开发：
 你需要获取安卓签名文件的密码等信息，因安全原因，这些敏感信息不能公开发布于此。
 **强烈建议学习相关知识，编译完APK后，用你自己的签名文件签名。**
 请按如下步骤操作:
 * 克隆此代码仓库到你自己的Github账号
-* 扫描下方二维码关注“一型码农Lex”微信公众号。Scan the below QR code and subscribe "一型码农Lex" WeChat Channel.  
-<a href="/Documentation/wechat_qr.png"><img src="/Documentation/wechat_qr.png?raw=true" alt="WeChat Channel QR code" width="340"></a>  
+*扫描下方二维码关注“you you you”。扫描下方二维码，订阅“you you Lex”微信频道。  
+<一个href="/Documentation/wechat_qr.png"><img src="/Documentation/wechat_qr.png?raw=true" alt="WeChat Channel QR code" width="340"></a>  
 * 点击“一型码农Lex”微信公众号的中间菜单，获取入群二维码。进去索要签名文件的密码。
 * 在你克隆的仓库设置中的  `Actions secrets and variables` 选项中添加如下秘密环境变量：  
 <a href="/Documentation/screen1.png"><img src="/Documentation/screen1.png?raw=true" alt="Screenshot of Actions secrets" width="800"></a>  
